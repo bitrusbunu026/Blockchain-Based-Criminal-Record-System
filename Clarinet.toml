@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/Blockchain-Based-Criminal-Record.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.Record-Retention-Feature]
+path = 'contracts/Record-Retention-Feature.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
